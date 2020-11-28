@@ -1,0 +1,187 @@
+* {
+     margin: 0;
+     padding: 0;
+}
+
+p:hover, a:hover, h1:hover, h2:hover, h3:hover, span:hover {
+     color: blue;
+     /* transition-duration: 1s;
+     cursor: pointer; */
+}
+
+p, a, h1, h2, h3, span {
+     /* color: blue; */
+     transition-duration: .2s;
+     cursor: pointer;
+}
+
+header {
+     height: 900px;
+     background-image: url(../img/header/header-bg.jpg);
+/* Если не работает на  css файле то пропишем путь таким образом */
+     /* background: url(/img/header-bg.jpg) no-repeat center / cover; */
+}
+
+/* НАВ МЕНЮ */
+
+nav {
+     padding-top: 57px;
+     display: flex;
+     align-items: center;
+}
+
+.container {
+     max-width: 1169px;
+     margin: 0 auto;
+}
+
+img {
+     margin-right: 69px;
+}
+
+ul {
+     display: flex;
+     justify-content: flex-start;
+     list-style: none;
+     flex-grow: 1;
+     text-align: center;
+}
+
+.tel {
+     margin-left: auto;
+}
+
+li {
+     margin-right: 40px;
+}
+
+a {
+     text-transform: uppercase;
+     font-family: 'Anton', sans-serif;
+     text-decoration: none;
+     color: rgba(255, 255, 255, 1);
+     letter-spacing: 0.1em;
+     font-size: 14px;
+     line-height: 20%;
+     font-style: normal;
+     font-weight: no;
+}
+
+h1 {
+     margin-top: 229px;
+     font-family: 'Anton', sans-serif;
+     color: white;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 30px;
+     line-height: 44px;
+     letter-spacing: 0.1em;
+}
+
+h2 {
+     text-transform: uppercase;
+     font-family: 'Anton', sans-serif;
+     color: white;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 100px;
+     line-height: 147px;
+     letter-spacing: 0em;
+}
+
+.btn {
+     background: transparent;
+     font-size: 17px;
+     letter-spacing: 0.1em;
+     font-weight: normal;
+     width: 241px;
+     padding: 20px;
+     text-align: center;
+     border: 1px solid white;
+}
+
+/* .btn:hover {
+     background-color: white;
+} */
+
+/* About styles */
+
+.about {
+     height: 100vh;
+}
+
+p {
+     margin-top: 113px;
+     font-size: 50px;
+     font-weight: 400;
+     font-family: 'Anton', sans-serif;
+     text-transform: uppercase;
+}
+
+
+
+.p {
+     font-size: 25px;
+     text-transform: uppercase;
+     font-weight: 400;
+     margin-top: 58px;
+}
+
+.pp {
+     font-size: 16px;
+     font-family: 'Open Sans';
+     font-style: normal;
+     font-weight: normal;
+     margin-top: 19px;
+     text-transform: none;
+     text-align: justify;
+}
+
+.text_right {
+     margin-left: 36px;
+     padding-right: 5%;
+}
+
+.text_left {
+     display: block;
+     padding-left: 5%;
+}
+
+.text_container {
+     display: flex;
+     justify-content: space-around;
+}
+
+.gallery {
+     margin-top: 67px;
+     display: flex;
+     justify-content: space-between;
+}
+
+.img_1 {
+     margin-right: 0;
+}
+
+h3 {
+     margin-right: 55px;
+     margin-bottom: 80px;
+}
+
+.container_1 {
+     margin-top: 114px;
+     display: flex;
+}
+
+.hummenu1 {
+     width: 30px;
+     height: 30px;
+}
+
+.hunnebu1 {
+     width: 20px;
+     height: 20px;
+     background: transparent;
+     border: none;
+     outline: none;
+     margin-left: 10px;
+}
